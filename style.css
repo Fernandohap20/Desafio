@@ -12,14 +12,14 @@ body{
   justify-items: center; /*Alinhas os itens ao centro*/
   margin-top: 200px; 
 }
-main{
+.card {
   position: relative;
   display: inline-block;
   min-width: 300px;
   max-width: 1000px;
 }
 
-.texto{
+.texto {
   text-align: center;
   padding-top: 30px;
   padding-left: 20px;
@@ -30,35 +30,35 @@ main{
   
 }
 
-h1{
+h1 {
   color: #4ee59e;
   font-size: 10px;
   line-height: 1.3;
   letter-spacing: .2rem;
 }
 
-p{
+p {
   font-size: 20px;
   line-height: 1.3;
 }
 
-.icone{
+.icone {
   position: absolute;
   left: 46%;
   bottom: -7%;
   max-width: 100%;
-  padding: 10px;
+  padding: 9px;
   padding-bottom: 3px;
   background: #4ee59e;
-  border-radius: 100%;
+  border-radius: 10%;
   
 }
 
-.icone:hover{
+.icone:hover {
   background: #53ffa9;
   box-shadow: 0 0 1em 8px #53ffa95d;
   animation: rodar 2s infinite;
-
+  
 }
 
 @keyframes rodar {
