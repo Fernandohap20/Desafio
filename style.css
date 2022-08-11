@@ -51,7 +51,6 @@ p {
   padding-bottom: 3px;
   background: #4ee59e;
   border-radius: 10%;
-  
 }
 
 .icone:hover {
@@ -61,9 +60,9 @@ p {
   
 }
 
+
 @keyframes rodar {
   to {
     transform: rotate(360deg);
    }
- 
-}
+ }
